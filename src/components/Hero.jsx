@@ -12,7 +12,7 @@ export default function Hero() {
         e.preventDefault();
         if (!tag.trim()) return;
 
-        const url = `http://localhost:5001/api/player/${tag.replace(/^#/, "").toUpperCase()}`;
+        const url = `https://clash-royale-site-backend.onrender.com/api/player/${tag.replace(/^#/, "").toUpperCase()}`;
 
         try {
             const response = await fetch(url);
@@ -30,7 +30,7 @@ export default function Hero() {
 
     const handleBattleLog = async () => {
         if (!tag.trim()) return;
-        const url = `http://localhost:5001/api/player/battlelog/${tag.replace(/^#/, "").toUpperCase()}`;
+        const url = `https://clash-royale-site-backend.onrender.com/api/player/battlelog/${tag.replace(/^#/, "").toUpperCase()}`;
 
         try {
             const response = await fetch(url);
@@ -46,7 +46,7 @@ export default function Hero() {
 
     const handleChests = async () => {
         if (!tag.trim()) return;
-        const url = `http://localhost:5001/api/player/chests/${tag.replace(/^#/, "").toUpperCase()}`;
+        const url = `https://clash-royale-site-backend.onrender.com/api/player/chests/${tag.replace(/^#/, "").toUpperCase()}`;
 
         try {
             const response = await fetch(url);
