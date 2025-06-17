@@ -92,6 +92,6 @@ This app safely proxies all requests through your backend so the key stays priva
 
 ## 👑 Credits
 
-Created with 💙 by [Your Name]
+Created with 💙 by Huzefa Khalil Dayanji
 
 Data provided by [Clash Royale Developer API](https://developer.clashroyale.com/)
