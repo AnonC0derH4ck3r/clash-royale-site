@@ -125,3 +125,55 @@ nav li:hover {
     color: #aaa;
     font-style: italic;
 }
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    nav h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .hero {
+        padding: 4rem 1rem;
+    }
+
+    .hero h2 {
+        font-size: 2.25rem;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+        padding: 0 1rem;
+    }
+
+    .hero button {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .card-grid {
+        padding: 2rem 1rem;
+    }
+
+    .card-grid-inner {
+        grid-template-columns: 1fr; /* Single column */
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card h4 {
+        font-size: 1rem;
+    }
+}
