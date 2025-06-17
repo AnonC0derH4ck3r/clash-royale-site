@@ -90,14 +90,6 @@ This app safely proxies all requests through your backend so the key stays priva
 
 ---
 
-## 📸 Screenshots
-
-| Player Stats | Battle Logs |
-|--------------|-------------|
-| *(Add screenshots here)* | *(Add screenshots here)* |
-
----
-
 ## 👑 Credits
 
 Created with 💙 by [Your Name]
